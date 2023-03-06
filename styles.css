@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+body {
+    font-family: 'Tilt Neon', cursive;
+    padding: 0;
+    background-color: rgb(221, 37, 37);
+  }
+
+  .name{
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+    color: rgb(251, 178, 21);
+  }
+
+  h1{
+    font-family: 'Luckiest Guy', cursive;
+    margin-bottom: 0;
+    color: rgb(62, 195, 235);
+    
+  }
+
+  
+#container {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 20px;
+    border: 5px solid rgb(255, 187, 0);
+  }
+  
+  #pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: rgb(250, 233, 194);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+  width: 300px;
+  padding: 60px;
+  text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    margin: 18px;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(53, 159, 44);
+    
+  }
+  .card p {
+    font-family: 'Mynerve', cursive;
+  }
+
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffcb05;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+  }
+  
+  button:hover {
+    background-color: #f6ba00;
+  }
+  
