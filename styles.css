@@ -4,12 +4,12 @@
 
 body {
     font-family: 'Tilt Neon', cursive;
-    padding: 0;
+    padding: 20px;
     background-color: rgb(221, 37, 37);
   }
 
   .name{
-    font-size: 80px;
+    font-size: 60px;
     padding: 0;
     margin: 0;
     color: rgb(251, 178, 21);
@@ -19,6 +19,7 @@ body {
     font-family: 'Luckiest Guy', cursive;
     margin-bottom: 0;
     color: rgb(62, 195, 235);
+    
     
   }
 
@@ -44,16 +45,15 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   overflow: hidden;
-  margin: 20px;
   width: 300px;
-  padding: 60px;
+  padding: 30px;
   text-align: center;
   }
   
   .card img {
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
+  
   }
   
   .card h2 {
